@@ -1,0 +1,32 @@
+{
+  "url": "https://hcm-eu30.hr.cloud.sap/sf/home?bplte_company=altiaconsu&_s.crb=g9QJ7VC54qQs9MfEENyl6%2bUHZeSzE%2fepqgkr4jUr2IU%3d",
+  "browser": {
+    "defaultTimeout": 30000
+  },
+  "selectors": {
+    "usernameInput": "#username",
+    "passwordInput": "#password",
+    "loginButton": "#kc-login",
+    "totpInput": "#otp",
+    "timeTrackingIcon": "#content > div > div.HomepageLayout_content__3KxJ8 > div:nth-child(1) > div > section > ul > li:nth-child(1) > ui5-busy-indicator > button",
+    "viewTimesheetLink": "#clockTimeDialog > ui5-busy-indicator > div > div.ClockTimeDialog_recentActivityHeader__Rdjud > ui5-link",
+    "dateSelector": ".timesheet-date",
+    "timeEventsButton": "#sap\\.sf\\.attendancerecording\\.timesheets---timeRecordingView--timeRecordingPage-anchBar-sap\\.sf\\.attendancerecording\\.timesheets---timeRecordingView--timeEventsSection-anchor-text > span",
+    "createButton": "#sap\\.sf\\.attendancerecording\\.timesheets---timeRecordingView--createTimeEventButton",
+    "timeInput": "#sap\\.sf\\.attendancerecording\\.timesheets---timeRecordingView--tpTimeEventTime-inner",
+    "typeDropdown": "#sap\\.sf\\.attendancerecording\\.timesheets---timeRecordingView--vh-timeEventTypeCode-inner",
+    "submitButton": "#sap\\.sf\\.attendancerecording\\.timesheets---timeRecordingView--btnSubmitTimeEventCreateDialog"
+  },
+  "schedules": {
+    "friday": [
+      { "time": "08:00", "type": "Entrada" },
+      { "time": "14:00", "type": "Salida" }
+    ],
+    "regular": [
+      { "time": "08:00", "type": "Entrada" },
+      { "time": "14:00", "type": "Salida" },
+      { "time": "14:45", "type": "Entrada" },
+      { "time": "17:30", "type": "Salida" }
+    ]
+  }
+}

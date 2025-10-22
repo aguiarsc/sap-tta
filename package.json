@@ -1,0 +1,35 @@
+{
+  "name": "sap-tta",
+  "version": "1.0.0",
+  "description": "SAP SuccessFactors Time Tracking Automation",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "validate": "ts-node src/core/config.ts --validate",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sap",
+    "successfactors",
+    "automation",
+    "time-tracking",
+    "totp"
+  ],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "otplib": "^12.0.1",
+    "puppeteer-core": "^24.26.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
