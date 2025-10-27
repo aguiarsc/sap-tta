@@ -1,4 +1,4 @@
-# SAP SuccessFactors Time Tracking Automation
+# SAP Time Tracking Automation
 
 Automates time entry in SAP SuccessFactors with TOTP authentication. Automatically detects weekday type and filters events based on current time.
 
